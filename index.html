@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - Shivesh Kushwaha</title>
+    <title>Shivesh Kushwaha</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6c07456a21.js" crossorigin="anonymous"></script>
 
@@ -16,7 +16,8 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="./images/logo.png" alt="logo" class="logo">
+                <!-- <img src="./images/logo.png" alt="logo" class="logo"> -->
+                <img src="./images/logo2.png" alt="logo2" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -28,8 +29,8 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Full Stack Web Developer</p>
-                <h1>Hi, I'm <span>Shiva</span> <br> From India.</h1>
+                <p>Student From MCA</p>
+                <h1>Hi, I'm <span>Shivesh</span> <br> From Madhya Pradesh.</h1>
             </div>
         </div>
     </div>
@@ -39,36 +40,45 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="./images/user.png" alt="user">
+                    <!-- <img src="./images/user.png" alt="user"> -->
+                    <img src="./images/user2.png" alt="user2">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Hii, This is Shiva From India </p>
+                    <p>Hi, This is <span style="font-weight: bold;">Shivesh</span> from Rewa, Madhya Pradesh. I have
+                        completed my
+                        graduation from RDVV University in Jabalpur. Now, I'm pursuing MCA from RGPV university.
+                        <br> I have gained some technical knowledge on C/C++, Java, Python, Data Structure, SQL, HTML,
+                        CSS,
+                        MongoDB, NodeJs and React.
+                        I love Coding and playing with SQL queries.
+                    </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                            <li><span>Web Design</span><br>Design Web/App Interfaces</li>
                             <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                            <li><span>Problem Solving</span><br>Solving Critical Problems</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2022-Current</span><br>UI/UX Design Training at ET Institute</li>
-                            <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
-                            <li><span>2017-2019</span><br>UI/UX Design Excutive at Coin Digital Ltd.</li>
-                            <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                            <li><span>Chat App</span><br>Received and responded to multiple live chats.</li>
+                            <li><span>Todo App</span><br>Keep your all todo there.</li>
+                            <li><span>Weather App</span><br>Live weather tracking application.</li>
+                            <li><span>Snack Game</span><br>Created funny snake game.</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
-                            <li><span>2016</span><br>MBA from MIT Banglore.</li>
-                            <li><span>2014</span><br>BBA from ISM Banglore.</li>
+                            <li><span>2021-Present</span><br>MCA from RGPV University in Jabalpur.</li>
+                            <li><span>2018-2021</span><br>BSC from RDVV University in Jabalpur.</li>
+                            <li><span>2014-18</span><br>Saraswati School from Rewa, Madhya Pradesh.</li>
                         </ul>
                     </div>
                 </div>
@@ -84,19 +94,19 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit.</p>
+                    <p>I have designed so many websites using CSS and Bootstrap.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-sharp fa-solid fa-crop"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit.</p>
+                    <h2>Web Dev</h2>
+                    <p>I have developed so many dynamic websites Using MERN and MEN.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit.</p>
+                    <h2>Solving Pro</h2>
+                    <p>I have great problem solving skills and so many problems are solved.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -112,16 +122,17 @@
                     <img src="./images/work-1.png" alt="work-1">
                     <div class="layer">
                         <h3>Social Media App</h3>
-                        <p>The app connects you yo the talented people around the world. Download it form play store.
+                        <p>The app connects you yo the talented people around the world.
                         </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://shiva-chat-app.herokuapp.com"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="./images/work-2.png" alt="work-2">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you yo the talented people around the world. Download it form play store.
+                        <h3>Todo Web App</h3>
+                        <p>The web application where you can keep your all todos on there and delete/update your todos
+                            as well.
                         </p>
                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
                     </div>
@@ -129,10 +140,11 @@
                 <div class="work">
                     <img src="./images/work-3.png" alt="work-3">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you yo the talented people around the world. Download it form play store.
+                        <h3>Weather Web App</h3>
+                        <p>The web application where you can see live weather of any city.
                         </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://shivaweatherapp.herokuapp.com" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
@@ -147,13 +159,16 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                    <p><i class="fas fa-paper-plane"></i>officialshiva0307@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 9617815604</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/officialshiva0307/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shivesh-kushwaha-071a53231"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/officialshiva"><i class="fa-brands fa-github"></i></a>
                     </div>
                     <a href="./images/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -170,76 +185,11 @@
         </div>
 
         <div class="copyright">
-            <p>Copyright &copy; Shiva. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+            <p>Copyright &copy; Shivesh. Everything is <i class="fas fa-heart"></i> Reserved</p>
         </div>
     </div>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-    let tablinks = document.getElementsByClassName("tab-links")
-    let tabcontents = document.getElementsByClassName("tab-contents")
-
-    function opentab(tabname) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
-
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add('active-tab');
-    }
-</script>
-
-<!-- for manu bar  -->
-<script>
-    let sidemenu = document.getElementById("sidemenu");
-
-    function openmenu() {
-        sidemenu.style.right = "0";
-    }
-
-    function closemenu() {
-        sidemenu.style.right = "-200px";
-    }
-
-</script>
-
-
-<!-- contact form from google sheet  -->
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyHAiocdxIVtd6eX8clq0PqXnePMPAts31QKj_KoxMX-MJ4ASB19tZSYh6F8sR3X-bb/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg");
-
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(response => {
-                msg.innerHTML = "Message sent Successfully"
-                setTimeout(() => {
-                    msg.innerHTML = ""
-                }, 5000);
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-    })
-</script>
-
-
+<script src="script.js"></script>
 
 </html>
