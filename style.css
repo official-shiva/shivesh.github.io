@@ -381,7 +381,8 @@ nav .fas {
     }
 
     .header-text {
-        margin-top: 100%;
+        /* margin-top: 100%; */
+        margin-top: 80%;
         font-size: 16px;
     }
 
